@@ -1,0 +1,18 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  --primary: #3b0958;
+  --secondary: #0680a6;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: linear-gradient(180deg,#000000dd 20%,transparent),
+  linear-gradient(90deg,var(--primary),var(--secondary));
+  justify-content: center;
+  align-items: center;
+}
